@@ -1,5 +1,5 @@
 # 启动信息
-Write-Host 'Hello PWSH' -ForegroundColor Yellow
+Write-Host 'Hello pwsh' -ForegroundColor Yellow
 
 # 提示符
 function prompt {
