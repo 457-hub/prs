@@ -10,5 +10,5 @@ if [[ "$PATH" != *"$HOME/core/prs/bin"* ]]; then
 fi
 
 # bin文件软连接
-mkdir -p $HOME/bin && ln -sf $HOME/core/prs/bin/bas.sh $HOME/bin/bas
+mkdir -p $HOME/bin && ln -sf $HOME/core/prs/bin/bas.sh $HOME/bin/bas && chmod +x $HOME/core/prs/bin/bas.sh
 
